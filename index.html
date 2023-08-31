@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#advantage">Advantages</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+        <h1 class="welcome-message">Hi, <span id="username">Name</span></h1>
+        <h2>Selamat Datang di SMK PASTI BISA</h2>
+    </div>
+
+    <section class="section" id="about">
+        <h2>About Our School</h2>
+        <p>Sekolah Menengah Kejuruan (SMK) adalah salah satu bentuk satuan pendidikan formal yang menyelenggarakan pendidikan kejuruan pada jenjang pendidikan menengah yang mempersiapkan peserta didik terutama untuk bekerja di bidang tertentu. Siswa dapat melanjutkan pendidikan SMK setelah menyelesaikan pendidikan di tingkat Sekolah Menengah Pertama atau sederajat.
+
+            Masa studi siswa jenjang SMK dilaksanakan selama tiga sampai empat tahun. SMK yang menerapkan masa studi pembelajaran selama empat tahun, yang terbagi menjadi tiga tahun masa studi di sekolah dan satu tahun di industri jurusan terkait.</p>
+    </section>
+
+    <section class="section" id="advantages">
+        <h2>Advantages</h2>
+        <div class="advantages-container">
+            <div class="advantage">
+                <h3>Menguasai Keahlian Jurusan</h3>
+                <p>Sekolah Menengah Kejuruan atau yang disingkat SMK memberikan pengajaran yang berfokus pada bidang tertentu. Hal ini tentu menjadi keunggulan tersendiri. Siswa tidak dibingungkan dengan banyak keilmuan yang harus dipelajari, justru dapat lebih fokus terampil dan maksimal pada bidang tertentu. Anak didik SMK diutamakan handal dalam keahliannya.</p>
+            </div>
+            <div class="advantage">
+                <h3>Lebih Praktikal</h3>
+                <p>Bagi Anda yang merasa kelas materi sekolah membosankan, tidak suka kegiatan yang hanya duduk dan mendengarkan penjelasan guru, maka Anda sebaiknya mempertimbangkan untuk memilih pendidikan kejuruan. Pendidikan kejuruan akan membawa Anda kepada suasana belajar yang benar-benar berbasis praktikal, sehingga akan lebih banyak praktik daripada pembelajaran teori. Pelajar SMK lebih mengutamakan pembelajaran praktik daripada teori. Hal tersebut karena siswa SMK ditargetkan dalam pelajaran kejurusan yang memang harus banyak dipelajari dalam kegiatan praktik.</p>
+            </div>
+            <div class="advantage">
+                <h3>Lulusan Siap Kerja</h3>
+                <p>Siswa disiapkan menjadi lulusan yang siap memasuki dunia kerja. Pada Sekolah Menengah Kejuruan (SMK) siswa dibekali dengan berbagai keahlian khusus sesuai dengan program keahlian yang dipilih. Pada SMK kegiatan praktik lebih banyak atau lebih besar dibandingkan dengan pemberian materi, sehingga siswa terlatih untuk terampil dalam bidangnya.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <div class="form-container">
+            <div class="form-content">
+                <form id="contact-form">
+                    <input type="email" class="form-input" placeholder="Your Email" id="email" required>
+                    <input type="tel" class="form-input" placeholder="Your Phone Number" id="phone" required>
+                    <textarea class="form-textarea" placeholder="Your Message" id="message" required></textarea>
+                    <button type="submit" class="form-submit">Submit</button>
+                </form>
+            </div>
+            <div class="form-result">
+                <div class="form-result-container">
+                    <div id="result" class="form-result-content"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
